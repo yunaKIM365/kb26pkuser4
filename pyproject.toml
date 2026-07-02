@@ -1,11 +1,12 @@
 [project]
-name = "kb26pkuser4"
-version = "0.1.0"
+name = "kb25pkuser34"
+version = "0.1.1"
 description = ""
 authors = [
-    {name = "yunaKIM365",email = "uim2878@gmail.com"}
+    {name = "Jongsoo Kim",email = "jongsoo.kim@bionexus.kr"}
 ]
-requires-python = ">=3.8"
+readme = "README.md"
+requires-python = ">=3.12"
 dependencies = [
 ]
 
@@ -14,7 +15,5 @@ dependencies = [
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[dependency-groups]
-dev = [
-    "pytest (==8.3.5)"
-]
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
